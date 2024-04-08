@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quizz de personnalité "Gérer - Administrer"</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Quizz de personnalité "Gérer - Administrer"</h1>
+    <p>Découvre quel est le domaine qui te correspond le plus au sein de la partie "Gérer - Administrer" répondant rapidement à chacune de ces 10 questions.</p>
+    <form id="quizForm">
+        <div class="question">
+            <p>1. Lorsque vous pensez à l'avenir de votre carrière, quel aspect vous intéresse le plus ?</p>
+            <input type="radio" id="question1-A" name="question1" value="A">
+            <label for="question1-A">A. Optimiser les flux financiers et investissements</label><br>
+            <input type="radio" id="question1-B" name="question1" value="B">
+            <label for="question1-B">B. Élaborer des stratégies de communication efficaces</label><br>
+            <input type="radio" id="question1-C" name="question1" value="C">
+            <label for="question1-C">C. Améliorer le bien-être et le développement des employés</label><br>
+            <input type="radio" id="question1-D" name="question1" value="D">
+            <label for="question1-D">D. Gérer et améliorer les systèmes d'information</label><br>
+            <input type="radio" id="question1-E" name="question1" value="E">
+            <label for="question1-E">E. Diriger une équipe vers la réalisation d'objectifs communs</label><br>
+        </div>
+        
+        <div class="question">
+            <p>2. Quel outil ou compétence préférez-vous utiliser au travail ?</p>
+            <input type="radio" id="question2-A" name="question2" value="A">
+            <label for="question2-A">A. Logiciels de gestion financière</label><br>
+            <input type="radio" id="question2-B" name="question2" value="B">
+            <label for="question2-B">B. Plateformes de médias sociaux et outils de communication</label><br>
+            <input type="radio" id="question2-C" name="question2" value="C">
+            <label for="question2-C">C. Systèmes de gestion des ressources humaines</label><br>
+            <input type="radio" id="question2-D" name="question2" value="D">
+            <label for="question2-D">D. Logiciels de gestion de bases de données</label><br>
+            <input type="radio" id="question2-E" name="question2" value="E">
+            <label for="question2-E">E. Techniques de leadership et de gestion d'équipe</label><br>
+        </div>
+        
+        <div class="question">
+            <p>3. Quel défi vous motive le plus ?</p>
+            <input type="radio" id="question3-A" name="question3" value="A">
+            <label for="question3-A">A. Maximiser les profits et réduire les coûts</label><br>
+            <input type="radio" id="question3-B" name="question3" value="B">
+            <label for="question3-B">B. Atteindre un large public avec un message puissant</label><br>
+            <input type="radio" id="question3-C" name="question3" value="C">
+            <label for="question3-C">C. Résoudre les conflits et améliorer la culture d'entreprise</label><br>
+            <input type="radio" id="question3-D" name="question3" value="D">
+            <label for="question3-D">D. Assurer la sécurité des données et optimiser les processus IT</label><br>
+            <input type="radio" id="question3-E" name="question3" value="E">
+            <label for="question3-E">E. Surmonter les obstacles pour atteindre un objectif commun</label><br>
+        </div>
+        
+        <div class="question">
+            <p>4. Comment décririez-vous votre approche de travail ?</p>
+            <input type="radio" id="question4-A" name="question4" value="A">
+            <label for="question4-A">A. Analytique et orienté détails</label><br>
+            <input type="radio" id="question4-B" name="question4" value="B">
+            <label for="question4-B">B. Créatif et persuasif</label><br>
+            <input type="radio" id="question4-C" name="question4" value="C">
+            <label for="question4-C">C. Empathique et orienté vers les personnes</label><br>
+            <input type="radio" id="question4-D" name="question4" value="D">
+            <label for="question4-D">D. Technique et innovant</label><br>
+            <input type="radio" id="question4-E" name="question4" value="E">
+            <label for="question4-E">E. Stratégique et motivant</label><br>
+        </div>
+        
+        <div class="question">
+            <p>5. Quelle tâche vous attire le plus ?</p>
+            <input type="radio" id="question5-A" name="question5" value="A">
+            <label for="question5-A">A. Élaboration de budgets et prévisions financières</label><br>
+            <input type="radio" id="question5-B" name="question5" value="B">
+            <label for="question5-B">B. Création de contenu et gestion de campagnes publicitaires</label><br>
+            <input type="radio" id="question5-C" name="question5" value="C">
+            <label for="question5-C">C. Planification des carrières et développement professionnel</label><br>
+            <input type="radio" id="question5-D" name="question5" value="D">
+            <label for="question5-D">D. Développement et gestion de systèmes informatiques</label><br>
+            <input type="radio" id="question5-E" name="question5" value="E">
+            <label for="question5-E">E. Définition des objectifs et évaluation des performances</label><br>
+        </div>
+        
+        <div class="question">
+            <p>6. Quel est votre domaine d'intérêt principal ?</p>
+            <input type="radio" id="question6-A" name="question6" value="A">
+            <label for="question6-A">A. Économie et marchés financiers</label><br>
+            <input type="radio" id="question6-B" name="question6" value="B">
+            <label for="question6-B">B. Médias, publicité et relations publiques</label><br>
+            <input type="radio" id="question6-C" name="question6" value="C">
+            <label for="question6-C">C. Psychologie et sociologie</label><br>
+            <input type="radio" id="question6-D" name="question6" value="D">
+            <label for="question6-D">D. Informatique et nouvelles technologies</label><br>
+            <input type="radio" id="question6-E" name="question6" value="E">
+            <label for="question6-E">E. Leadership et développement organisationnel</label><br>
+        </div>
+        
+        <div class="question">
+            <p>7. Quel problème préférez-vous résoudre ?</p>
+            <input type="radio" id="question7-A" name="question7" value="A">
+            <label for="question7-A">A. Analyse financière complexe</label><br>
+            <input type="radio" id="question7-B" name="question7" value="B">
+            <label for="question7-B">B. Stratégie de communication dans une crise</label><br>
+            <input type="radio" id="question7-C" name="question7" value="C">
+            <label for="question7-C">C. Gestion des talents et recrutement</label><br>
+            <input type="radio" id="question7-D" name="question7" value="D">
+            <label for="question7-D">D. Sécurité des informations et protection des données</label><br>
+            <input type="radio" id="question7-E" name="question7" value="E">
+            <label for="question7-E">E. Gestion des changements et prise de décisions stratégiques</label><br>
+        </div>
+        
+        <div class="question">
+            <p>8. Quel type de projet vous passionne le plus ?</p>
+            <input type="radio" id="question8-A" name="question8" value="A">
+            <label for="question8-A">A. Projets d'investissement et d'analyse de risques</label><br>
+            <input type="radio" id="question8-B" name="question8" value="B">
+            <label for="question8-B">B. Campagnes de communication innovantes</label><br>
+            <input type="radio" id="question8-C" name="question8" value="C">
+            <label for="question8-C">C. Programmes de formation et de développement</label><br>
+            <input type="radio" id="question8-D" name="question8" value="D">
+            <label for="question8-D">D. Projets de transformation numérique</label><br>
+            <input type="radio" id="question8-E" name="question8" value="E">
+            <label for="question8-E">E. Initiatives de développement stratégique</label><br>
+        </div>
+        
+        <div class="question">
+            <p>9. Comment préférez-vous travailler ?</p>
+            <input type="radio" id="question9-A" name="question9" value="A">
+            <label for="question9-A">A. Indépendamment, avec des chiffres et des analyses</label><br>
+            <input type="radio" id="question9-B" name="question9" value="B">
+            <label for="question9-B">B. En équipe, sur des projets créatifs</label><br>
+            <input type="radio" id="question9-C" name="question9" value="C">
+            <label for="question9-C">C. Directement avec les gens, en les aidant à se développer</label><br>
+            <input type="radio" id="question9-D" name="question9" value="D">
+            <label for="question9-D">D. Avec la technologie, en résolvant des problèmes complexes</label><br>
+            <input type="radio" id="question9-E" name="question9" value="E">
+            <label for="question9-E">E. En dirigeant et en inspirant les autres</label><br>
+        </div>
+        
+        <div class="question">
+            <p>10. Quelle est votre priorité dans le choix d'une carrière ?</p>
+            <input type="radio" id="question10-A" name="question10" value="A">
+            <label for="question10-A">A. Stabilité financière et croissance</label><br>
+            <input type="radio" id="question10-B" name="question10" value="B">
+            <label for="question10-B">B. Créativité et influence</label><br>
+            <input type="radio" id="question10-C" name="question10" value="C">
+            <label for="question10-C">C. Aider les autres et créer un environnement de travail positif</label><br>
+            <input type="radio" id="question10-D" name="question10" value="D">
+            <label for="question10-D">D. Innovation et avancement technologique</label><br>
+            <input type="radio" id="question10-E" name="question10" value="E">
+            <label for="question10-E">E. Leadership et impact sur l'organisation</label><br>
+            
+            </div>
+        
+      <input type="submit" value="Découvrir mon orientation">
+    </form>
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
